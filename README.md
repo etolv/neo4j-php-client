@@ -37,7 +37,7 @@ Or watch any of these [videos](https://www.youtube.com/watch?v=qwz5XVtbfSY&list=
 ### Step 1: install via composer
 
 ```bash
-composer require laudis/neo4j-php-client
+composer require etolv/neo4j-php-client
 ```
 Find more details [here](#in-depth-requirements)
 
