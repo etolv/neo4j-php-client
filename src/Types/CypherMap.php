@@ -36,7 +36,7 @@ use stdClass;
  * @implements ArrayAccess<string, TValue>
  * @implements Iterator<string, TValue>
  */
-final class CypherMap implements CypherSequence, ArrayAccess, Iterator
+class CypherMap implements CypherSequence, ArrayAccess, Iterator
 {
     /**
      * @use CypherSequenceTrait<TValue>
