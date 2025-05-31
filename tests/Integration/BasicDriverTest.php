@@ -20,7 +20,7 @@ use Laudis\Neo4j\Exception\Neo4jException;
 use Laudis\Neo4j\Tests\EnvironmentAwareIntegrationTest;
 use Laudis\Neo4j\Types\CypherMap;
 
-final class BasicDriverTest extends EnvironmentAwareIntegrationTest
+class BasicDriverTest extends EnvironmentAwareIntegrationTest
 {
     public function testFullWalk(): void
     {

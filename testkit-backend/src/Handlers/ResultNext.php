@@ -26,7 +26,7 @@ use Laudis\Neo4j\TestkitBackend\Responses\Types\CypherObject;
 /**
  * @implements RequestHandlerInterface<ResultNextRequest>
  */
-final class ResultNext implements RequestHandlerInterface
+class ResultNext implements RequestHandlerInterface
 {
     private MainRepository $repository;
 

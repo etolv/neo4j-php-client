@@ -21,7 +21,7 @@ use Laudis\Neo4j\TestkitBackend\Responses\RetryableDoneResponse;
 /**
  * @implements RequestHandlerInterface<RetryablePositiveRequest>
  */
-final class RetryablePositive implements RequestHandlerInterface
+class RetryablePositive implements RequestHandlerInterface
 {
     /**
      * @param RetryablePositiveRequest $request

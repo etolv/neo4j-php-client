@@ -21,7 +21,7 @@ use Laudis\Neo4j\TestkitBackend\Responses\BackendErrorResponse;
 /**
  * @implements RequestHandlerInterface<RetryableNegativeRequest>
  */
-final class RetryableNegative implements RequestHandlerInterface
+class RetryableNegative implements RequestHandlerInterface
 {
     /**
      * @param RetryableNegativeRequest $request

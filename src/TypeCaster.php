@@ -24,7 +24,7 @@ use Laudis\Neo4j\Types\CypherMap;
 
 use function method_exists;
 
-final class TypeCaster
+class TypeCaster
 {
     /**
      * @pure

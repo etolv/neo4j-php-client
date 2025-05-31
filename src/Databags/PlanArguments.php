@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace Laudis\Neo4j\Databags;
 
-final class PlanArguments
+class PlanArguments
 {
     public function __construct(
         public readonly ?int $globalMemory = null,

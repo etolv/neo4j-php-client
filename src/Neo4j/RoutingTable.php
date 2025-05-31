@@ -22,7 +22,7 @@ use Laudis\Neo4j\Enum\RoutingRoles;
  *
  * @psalm-immutable
  */
-final class RoutingTable
+class RoutingTable
 {
     /**
      * @param iterable<array{addresses: list<string>, role:string}> $servers

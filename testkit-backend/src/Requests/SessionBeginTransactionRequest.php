@@ -16,7 +16,7 @@ namespace Laudis\Neo4j\TestkitBackend\Requests;
 use Laudis\Neo4j\Databags\TransactionConfiguration;
 use Symfony\Component\Uid\Uuid;
 
-final class SessionBeginTransactionRequest
+class SessionBeginTransactionRequest
 {
     private Uuid $sessionId;
     /** @var iterable<string, array|scalar|null>|null */

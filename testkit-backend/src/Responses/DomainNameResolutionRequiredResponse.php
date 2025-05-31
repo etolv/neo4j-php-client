@@ -22,7 +22,7 @@ use Symfony\Component\Uid\Uuid;
  * This means that the backend expects the frontend to call the resolver function and submit a new request
  * with the results of it.
  */
-final class DomainNameResolutionRequiredResponse implements TestkitResponseInterface
+class DomainNameResolutionRequiredResponse implements TestkitResponseInterface
 {
     private Uuid $id;
     private string $name;

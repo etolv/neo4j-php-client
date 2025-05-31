@@ -26,7 +26,7 @@ use Psr\Log\LogLevel;
 /**
  * A message that issues a LOGON request to the server for authentication.
  */
-final class BoltLogonMessage extends BoltMessage
+class BoltLogonMessage extends BoltMessage
 {
     /**
      * @param V4_4|V5|V5_1|V5_2|V5_3|V5_4 $protocol    The Bolt protocol version

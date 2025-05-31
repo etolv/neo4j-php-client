@@ -28,7 +28,7 @@ use UnexpectedValueException;
  *
  * @psalm-suppress TypeDoesNotContainType
  */
-final class Date extends AbstractPropertyObject implements BoltConvertibleInterface
+class Date extends AbstractPropertyObject implements BoltConvertibleInterface
 {
     public function __construct(
         private readonly int $days,

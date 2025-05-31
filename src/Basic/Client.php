@@ -19,7 +19,7 @@ use Laudis\Neo4j\Databags\SummarizedResult;
 use Laudis\Neo4j\Databags\TransactionConfiguration;
 use Laudis\Neo4j\Types\CypherList;
 
-final class Client implements ClientInterface
+class Client implements ClientInterface
 {
     public function __construct(
         private readonly ClientInterface $client,

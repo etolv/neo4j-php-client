@@ -35,7 +35,7 @@ use Throwable;
  *
  * @psalm-import-type BoltMeta from SummarizedResultFormatter
  */
-final class BoltUnmanagedTransaction implements UnmanagedTransactionInterface
+class BoltUnmanagedTransaction implements UnmanagedTransactionInterface
 {
     private TransactionState $state = TransactionState::ACTIVE;
 

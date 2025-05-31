@@ -25,7 +25,7 @@ use Laudis\Neo4j\Contracts\PointInterface;
  *
  * @psalm-import-type Crs from \Laudis\Neo4j\Contracts\PointInterface
  */
-final class WGS84Point extends AbstractPoint implements PointInterface, BoltConvertibleInterface
+class WGS84Point extends AbstractPoint implements PointInterface, BoltConvertibleInterface
 {
     public const SRID = 4326;
     public const CRS = 'wgs-84';

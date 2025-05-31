@@ -18,7 +18,7 @@ use Laudis\Neo4j\TestkitBackend\Contracts\TestkitResponseInterface;
 /**
  * Indicates an internal error has occurred.
  */
-final class BackendErrorResponse implements TestkitResponseInterface
+class BackendErrorResponse implements TestkitResponseInterface
 {
     private string $message;
 

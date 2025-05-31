@@ -18,7 +18,7 @@ namespace Laudis\Neo4j\Databags;
  *
  * @see https://neo4j.com/docs/cypher-manual/current/execution-plans/
  */
-final class Plan
+class Plan
 {
     /**
      * @param list<Plan>   $children

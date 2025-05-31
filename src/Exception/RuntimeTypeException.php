@@ -17,7 +17,7 @@ use function get_debug_type;
 
 use RuntimeException;
 
-final class RuntimeTypeException extends RuntimeException
+class RuntimeTypeException extends RuntimeException
 {
     public function __construct(mixed $value, string $type)
     {

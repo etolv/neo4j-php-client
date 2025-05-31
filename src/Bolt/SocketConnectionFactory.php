@@ -17,7 +17,7 @@ use Bolt\connection\Socket;
 use Laudis\Neo4j\Contracts\BasicConnectionFactoryInterface;
 use Laudis\Neo4j\Databags\TransactionConfiguration;
 
-final class SocketConnectionFactory implements BasicConnectionFactoryInterface
+class SocketConnectionFactory implements BasicConnectionFactoryInterface
 {
     public function __construct(
         private readonly StreamConnectionFactory $factory,

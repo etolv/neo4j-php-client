@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace Laudis\Neo4j\Bolt;
 
-final class UriConfiguration
+class UriConfiguration
 {
     /**
      * @param ''|'s'|'ssc' $sslLevel

@@ -57,7 +57,7 @@ use UnexpectedValueException;
  *
  * @psalm-pure
  */
-final class BoltOGMTranslator
+class BoltOGMTranslator
 {
     /**
      * @var array<string, pure-callable(mixed):OGMTypes>

@@ -22,7 +22,7 @@ use Laudis\Neo4j\Types\AbstractCypherObject;
  *
  * @extends AbstractCypherObject<string, int|bool>
  */
-final class SummaryCounters extends AbstractCypherObject
+class SummaryCounters extends AbstractCypherObject
 {
     public function __construct(
         private readonly int $nodesCreated = 0,

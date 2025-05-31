@@ -21,7 +21,7 @@ namespace Laudis\Neo4j\Databags;
  *
  * @psalm-immutable
  */
-final class Pair
+class Pair
 {
     /**
      * @param TKey   $key

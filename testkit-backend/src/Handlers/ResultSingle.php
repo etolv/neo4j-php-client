@@ -30,7 +30,7 @@ use Laudis\Neo4j\TestkitBackend\Responses\RecordResponse;
  *
  * @implements RequestHandlerInterface<ResultSingleRequest>
  */
-final class ResultSingle implements RequestHandlerInterface
+class ResultSingle implements RequestHandlerInterface
 {
     private function __construct(
         private readonly MainRepository $repository,

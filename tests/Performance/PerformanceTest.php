@@ -33,7 +33,7 @@ use function sleep;
 use Symfony\Component\Uid\Uuid;
 use UnexpectedValueException;
 
-final class PerformanceTest extends EnvironmentAwareIntegrationTest
+class PerformanceTest extends EnvironmentAwareIntegrationTest
 {
     public function testBigRandomData(): void
     {

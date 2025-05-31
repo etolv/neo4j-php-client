@@ -29,7 +29,7 @@ use Laudis\Neo4j\Databags\SessionConfiguration;
 use Laudis\Neo4j\Databags\SslConfiguration;
 use PHPUnit\Framework\TestCase;
 
-final class BoltFactoryTest extends TestCase
+class BoltFactoryTest extends TestCase
 {
     private BoltFactory $factory;
 

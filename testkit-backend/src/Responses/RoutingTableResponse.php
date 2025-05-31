@@ -18,7 +18,7 @@ use Laudis\Neo4j\TestkitBackend\Contracts\TestkitResponseInterface;
 /**
  * Represents the full routing table.
  */
-final class RoutingTableResponse implements TestkitResponseInterface
+class RoutingTableResponse implements TestkitResponseInterface
 {
     private ?string $database;
     private int $ttl;

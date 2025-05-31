@@ -20,7 +20,7 @@ use Symfony\Component\Uid\Uuid;
 /**
  * Base class for all kind of driver errors that is NOT a backend specific error.
  */
-final class DriverErrorResponse implements TestkitResponseInterface
+class DriverErrorResponse implements TestkitResponseInterface
 {
     private Uuid $id;
     private Neo4jException $exception;

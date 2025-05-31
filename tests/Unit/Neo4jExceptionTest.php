@@ -18,7 +18,7 @@ use Laudis\Neo4j\Databags\Neo4jError;
 use Laudis\Neo4j\Exception\Neo4jException;
 use PHPUnit\Framework\TestCase;
 
-final class Neo4jExceptionTest extends TestCase
+class Neo4jExceptionTest extends TestCase
 {
     private array $errors;
     private Error $previous;

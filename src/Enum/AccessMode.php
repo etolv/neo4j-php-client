@@ -28,7 +28,7 @@ use Laudis\TypedEnum\TypedEnum;
  *
  * @psalm-suppress MutableDependency
  */
-final class AccessMode extends TypedEnum implements JsonSerializable
+class AccessMode extends TypedEnum implements JsonSerializable
 {
     private const READ = 'read';
     private const WRITE = 'write';

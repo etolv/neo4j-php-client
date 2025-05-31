@@ -20,7 +20,7 @@ use Laudis\Neo4j\TestkitBackend\Responses\FeatureListResponse;
 /**
  * @implements RequestHandlerInterface<GetFeaturesRequest>
  */
-final class GetFeatures implements RequestHandlerInterface
+class GetFeatures implements RequestHandlerInterface
 {
     /** @var iterable<string, bool> */
     private iterable $featuresConfig;

@@ -15,7 +15,7 @@ namespace Laudis\Neo4j\TestkitBackend\Requests;
 
 use Symfony\Component\Uid\Uuid;
 
-final class SessionRunRequest
+class SessionRunRequest
 {
     /**
      * @param iterable<string, array{name: string, data: array{value: iterable|scalar|null}}>|null $params

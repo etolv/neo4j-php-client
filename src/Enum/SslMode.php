@@ -29,7 +29,7 @@ use Stringable;
  *
  * @psalm-suppress MutableDependency
  */
-final class SslMode extends TypedEnum implements JsonSerializable, Stringable
+class SslMode extends TypedEnum implements JsonSerializable, Stringable
 {
     private const ENABLE = 'enable';
     private const ENABLE_WITH_SELF_SIGNED = 'enable_with_self_signed';

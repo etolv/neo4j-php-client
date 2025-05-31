@@ -36,7 +36,7 @@ use Psr\Log\LogLevel;
 use ReflectionClass;
 use RuntimeException;
 
-final class ClientIntegrationTest extends EnvironmentAwareIntegrationTest
+class ClientIntegrationTest extends EnvironmentAwareIntegrationTest
 {
     public function setUp(): void
     {

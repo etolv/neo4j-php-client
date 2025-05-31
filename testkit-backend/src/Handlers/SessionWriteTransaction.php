@@ -23,7 +23,7 @@ use Symfony\Component\Uid\Uuid;
 /**
  * @implements RequestHandlerInterface<SessionWriteTransactionRequest>
  */
-final class SessionWriteTransaction implements RequestHandlerInterface
+class SessionWriteTransaction implements RequestHandlerInterface
 {
     private MainRepository $repository;
 

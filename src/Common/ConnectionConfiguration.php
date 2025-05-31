@@ -21,7 +21,7 @@ use Psr\Http\Message\UriInterface;
 /**
  * @psalm-immutable
  */
-final class ConnectionConfiguration
+class ConnectionConfiguration
 {
     /**
      * @param ''|'s'|'ssc' $encryptionLevel

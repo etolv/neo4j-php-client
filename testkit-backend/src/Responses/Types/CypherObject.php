@@ -27,7 +27,7 @@ use RuntimeException;
 /**
  * @psalm-import-type OGMTypes from \Laudis\Neo4j\Formatter\OGMFormatter
  */
-final class CypherObject implements TestkitResponseInterface
+class CypherObject implements TestkitResponseInterface
 {
     /** @var CypherList|CypherMap|int|bool|float|string|Node|Relationship|Path|null */
     private $value;

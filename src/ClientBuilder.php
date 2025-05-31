@@ -33,7 +33,7 @@ use Psr\Log\LoggerInterface;
  *
  * @psalm-import-type OGMTypes from SummarizedResultFormatter
  */
-final class ClientBuilder
+class ClientBuilder
 {
     public const SUPPORTED_SCHEMES = ['', 'bolt', 'bolt+s', 'bolt+ssc', 'neo4j', 'neo4j+s', 'neo4j+ssc'];
 

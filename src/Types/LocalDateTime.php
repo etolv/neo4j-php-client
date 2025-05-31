@@ -31,7 +31,7 @@ use UnexpectedValueException;
  *
  * @psalm-suppress TypeDoesNotContainType
  */
-final class LocalDateTime extends AbstractPropertyObject implements BoltConvertibleInterface
+class LocalDateTime extends AbstractPropertyObject implements BoltConvertibleInterface
 {
     public function __construct(
         private readonly int $seconds,

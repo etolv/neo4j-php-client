@@ -21,7 +21,7 @@ use stdClass;
 /**
  * Represents summary when consuming a result.
  */
-final class SummaryResponse implements TestkitResponseInterface
+class SummaryResponse implements TestkitResponseInterface
 {
     private SummarizedResult $result;
 

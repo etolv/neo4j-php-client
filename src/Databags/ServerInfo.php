@@ -24,7 +24,7 @@ use Psr\Http\Message\UriInterface;
  *
  * @extends AbstractCypherObject<string, mixed>
  */
-final class ServerInfo extends AbstractCypherObject
+class ServerInfo extends AbstractCypherObject
 {
     public function __construct(
         private readonly UriInterface $address,

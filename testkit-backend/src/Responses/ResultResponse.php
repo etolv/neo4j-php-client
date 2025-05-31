@@ -19,7 +19,7 @@ use Symfony\Component\Uid\Uuid;
 /**
  * Represents a result instance on the backend.
  */
-final class ResultResponse implements TestkitResponseInterface
+class ResultResponse implements TestkitResponseInterface
 {
     private Uuid $id;
     private iterable $keys;

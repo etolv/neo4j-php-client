@@ -25,7 +25,7 @@ use Symfony\Component\Uid\Uuid;
 /**
  * @psalm-import-type OGMTypes from \Laudis\Neo4j\Formatter\OGMFormatter
  */
-final class MainRepository
+class MainRepository
 {
     /** @var array<string, DriverInterface<SummarizedResult<CypherMap<OGMTypes>>>> */
     private array $drivers;

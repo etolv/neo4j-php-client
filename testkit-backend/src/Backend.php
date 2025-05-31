@@ -34,7 +34,7 @@ use Psr\Log\LoggerInterface;
 use Throwable;
 use UnexpectedValueException;
 
-final class Backend
+class Backend
 {
     private Socket $socket;
     private LoggerInterface $logger;

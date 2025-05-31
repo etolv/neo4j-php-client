@@ -48,7 +48,7 @@ use Laudis\TypedEnum\TypedEnum;
  *
  * @psalm-suppress MutableDependency
  */
-final class ConnectionProtocol extends TypedEnum implements JsonSerializable
+class ConnectionProtocol extends TypedEnum implements JsonSerializable
 {
     private const BOLT_V3 = '3';
     private const BOLT_V40 = '4';

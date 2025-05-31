@@ -16,7 +16,7 @@ namespace Laudis\Neo4j\Databags;
 /**
  * @psalm-immutable
  */
-final class Position
+class Position
 {
     public function __construct(
         private int $column,

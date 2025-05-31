@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace Laudis\Neo4j\Tests\Fixtures;
 
-final class MoviesFixture
+class MoviesFixture
 {
     public const CQL = 'MERGE (TheMatrix:Movie {title:\'The Matrix\', released:1999, tagline:\'Welcome to the Real World\'})
     MERGE (Keanu:Person {name:\'Keanu Reeves\', born:1964})

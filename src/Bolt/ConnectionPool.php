@@ -31,7 +31,7 @@ use function shuffle;
 /**
  * @implements ConnectionPoolInterface<BoltConnection>
  */
-final class ConnectionPool implements ConnectionPoolInterface
+class ConnectionPool implements ConnectionPoolInterface
 {
     /** @var list<BoltConnection> */
     private array $activeConnections = [];

@@ -24,7 +24,7 @@ use Laudis\Neo4j\TestkitBackend\Responses\SkipTestResponse;
 /**
  * @implements RequestHandlerInterface<StartTestRequest>
  */
-final class StartTest implements RequestHandlerInterface
+class StartTest implements RequestHandlerInterface
 {
     /** @var array<string, array|string|bool> */
     private array $acceptedTests;

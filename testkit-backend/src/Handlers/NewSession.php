@@ -25,7 +25,7 @@ use Symfony\Component\Uid\Uuid;
 /**
  * @implements RequestHandlerInterface<NewSessionRequest>
  */
-final class NewSession implements RequestHandlerInterface
+class NewSession implements RequestHandlerInterface
 {
     private MainRepository $repository;
 

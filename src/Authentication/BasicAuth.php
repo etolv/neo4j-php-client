@@ -29,7 +29,7 @@ use Psr\Http\Message\UriInterface;
 /**
  * Authenticates connections using a basic username and password.
  */
-final class BasicAuth implements AuthenticateInterface
+class BasicAuth implements AuthenticateInterface
 {
     public function __construct(
         private readonly string $username,

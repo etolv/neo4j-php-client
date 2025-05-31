@@ -31,7 +31,7 @@ use Psr\Http\Message\UriInterface;
  *
  * @psalm-import-type OGMResults from SummarizedResultFormatter
  */
-final class DriverFactory
+class DriverFactory
 {
     /**
      * @throws UnsupportedScheme

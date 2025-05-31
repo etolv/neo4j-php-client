@@ -24,7 +24,7 @@ use Laudis\Neo4j\Types\AbstractCypherObject;
  *
  * @extends AbstractCypherObject<string, mixed>
  */
-final class Statement extends AbstractCypherObject
+class Statement extends AbstractCypherObject
 {
     /**
      * @param iterable<string, mixed> $parameters

@@ -15,7 +15,7 @@ namespace Laudis\Neo4j\TestkitBackend\Responses\Types;
 
 use Laudis\Neo4j\TestkitBackend\Contracts\TestkitResponseInterface;
 
-final class CypherRelationship implements TestkitResponseInterface
+class CypherRelationship implements TestkitResponseInterface
 {
     private CypherObject $id;
     private CypherObject $startNodeId;

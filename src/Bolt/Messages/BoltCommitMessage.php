@@ -26,7 +26,7 @@ use Laudis\Neo4j\Databags\Bookmark;
 use Laudis\Neo4j\Databags\BookmarkHolder;
 use Psr\Log\LogLevel;
 
-final class BoltCommitMessage extends BoltMessage
+class BoltCommitMessage extends BoltMessage
 {
     public function __construct(
         private readonly V4_4|V5|V5_1|V5_2|V5_3|V5_4 $protocol,

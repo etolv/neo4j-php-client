@@ -20,7 +20,7 @@ use Laudis\Neo4j\Bolt\BoltDriver;
 use Laudis\Neo4j\Tests\EnvironmentAwareIntegrationTest;
 use Throwable;
 
-final class BoltDriverIntegrationTest extends EnvironmentAwareIntegrationTest
+class BoltDriverIntegrationTest extends EnvironmentAwareIntegrationTest
 {
     /**
      * @throws Exception

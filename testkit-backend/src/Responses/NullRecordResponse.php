@@ -18,7 +18,7 @@ use Laudis\Neo4j\TestkitBackend\Contracts\TestkitResponseInterface;
 /**
  * Represents the record end when iterating through it.
  */
-final class NullRecordResponse implements TestkitResponseInterface
+class NullRecordResponse implements TestkitResponseInterface
 {
     public function jsonSerialize(): array
     {

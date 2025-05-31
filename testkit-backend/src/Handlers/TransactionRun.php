@@ -20,7 +20,7 @@ use Symfony\Component\Uid\Uuid;
 /**
  * @extends AbstractRunner<TransactionRunRequest>
  */
-final class TransactionRun extends AbstractRunner
+class TransactionRun extends AbstractRunner
 {
     /**
      * @param TransactionRunRequest $request

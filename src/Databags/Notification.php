@@ -15,7 +15,7 @@ namespace Laudis\Neo4j\Databags;
 
 use InvalidArgumentException;
 
-final class Notification
+class Notification
 {
     public function __construct(
         private string $severity,

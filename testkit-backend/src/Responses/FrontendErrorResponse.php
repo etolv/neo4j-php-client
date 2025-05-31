@@ -18,7 +18,7 @@ use Laudis\Neo4j\TestkitBackend\Contracts\TestkitResponseInterface;
 /**
  * Represents an error originating from client code.
  */
-final class FrontendErrorResponse implements TestkitResponseInterface
+class FrontendErrorResponse implements TestkitResponseInterface
 {
     private string $message;
 

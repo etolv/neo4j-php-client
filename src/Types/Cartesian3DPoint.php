@@ -25,7 +25,7 @@ use Laudis\Neo4j\Contracts\PointInterface;
  *
  * @psalm-import-type Crs from \Laudis\Neo4j\Contracts\PointInterface
  */
-final class Cartesian3DPoint extends Abstract3DPoint implements PointInterface, BoltConvertibleInterface
+class Cartesian3DPoint extends Abstract3DPoint implements PointInterface, BoltConvertibleInterface
 {
     public const SRID = 9157;
     public const CRS = 'cartesian-3d';

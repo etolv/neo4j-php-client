@@ -29,7 +29,7 @@ use Laudis\TypedEnum\TypedEnum;
  *
  * @psalm-suppress MutableDependency
  */
-final class RoutingRoles extends TypedEnum implements JsonSerializable
+class RoutingRoles extends TypedEnum implements JsonSerializable
 {
     private const LEADER = ['WRITE', 'LEADER'];
     private const FOLLOWER = ['READ', 'FOLLOWER'];

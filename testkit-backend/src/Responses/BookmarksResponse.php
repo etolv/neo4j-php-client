@@ -18,7 +18,7 @@ use Laudis\Neo4j\TestkitBackend\Contracts\TestkitResponseInterface;
 /**
  * Represents an array of bookmarks.
  */
-final class BookmarksResponse implements TestkitResponseInterface
+class BookmarksResponse implements TestkitResponseInterface
 {
     /**
      * @var iterable<string>

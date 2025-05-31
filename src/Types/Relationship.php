@@ -22,7 +22,7 @@ use Laudis\Neo4j\Formatter\SummarizedResultFormatter;
  *
  * @psalm-immutable
  */
-final class Relationship extends UnboundRelationship
+class Relationship extends UnboundRelationship
 {
     /**
      * @param CypherMap<OGMTypes> $properties

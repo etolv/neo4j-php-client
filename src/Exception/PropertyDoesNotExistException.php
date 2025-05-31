@@ -22,6 +22,6 @@ use RuntimeException;
  *
  * @psalm-suppress MutableDependency
  */
-final class PropertyDoesNotExistException extends RuntimeException
+class PropertyDoesNotExistException extends RuntimeException
 {
 }

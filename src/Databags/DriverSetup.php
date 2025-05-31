@@ -21,7 +21,7 @@ use Psr\Http\Message\UriInterface;
  *
  * @psalm-immutable
  */
-final class DriverSetup
+class DriverSetup
 {
     public function __construct(
         private readonly UriInterface $uri,

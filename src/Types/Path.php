@@ -20,7 +20,7 @@ namespace Laudis\Neo4j\Types;
  *
  * @extends AbstractPropertyObject<CypherList<Node>|CypherList<UnboundRelationship>|CypherList<int>, CypherList<Node>|CypherList<UnboundRelationship>|CypherList<int>>
  */
-final class Path extends AbstractPropertyObject
+class Path extends AbstractPropertyObject
 {
     /**
      * @param CypherList<Node>                $nodes

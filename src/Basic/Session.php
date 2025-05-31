@@ -20,7 +20,7 @@ use Laudis\Neo4j\Databags\SummarizedResult;
 use Laudis\Neo4j\Databags\TransactionConfiguration;
 use Laudis\Neo4j\Types\CypherList;
 
-final class Session implements SessionInterface
+class Session implements SessionInterface
 {
     public function __construct(
         private readonly SessionInterface $session,

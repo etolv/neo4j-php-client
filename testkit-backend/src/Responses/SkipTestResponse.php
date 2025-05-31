@@ -18,7 +18,7 @@ use Laudis\Neo4j\TestkitBackend\Contracts\TestkitResponseInterface;
 /**
  * Indicates the test should be skipped.
  */
-final class SkipTestResponse implements TestkitResponseInterface
+class SkipTestResponse implements TestkitResponseInterface
 {
     private string $reason;
 

@@ -24,7 +24,7 @@ use PHPUnit\Framework\TestCase;
 use stdClass;
 use Stringable;
 
-final class ParameterHelperTest extends TestCase
+class ParameterHelperTest extends TestCase
 {
     /** @var iterable<iterable|scalar|null> */
     private static iterable $invalidIterable;

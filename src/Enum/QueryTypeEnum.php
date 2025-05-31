@@ -32,7 +32,7 @@ use Stringable;
  *
  * @psalm-suppress MutableDependency
  */
-final class QueryTypeEnum extends TypedEnum implements JsonSerializable, Stringable
+class QueryTypeEnum extends TypedEnum implements JsonSerializable, Stringable
 {
     private const READ_ONLY = 'r';
     private const READ_WRITE = 'rw';

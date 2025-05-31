@@ -18,7 +18,7 @@ use Laudis\Neo4j\TestkitBackend\Contracts\TestkitResponseInterface;
 /**
  * Indicates a retryable transaction is successfully committed.
  */
-final class RetryableDoneResponse implements TestkitResponseInterface
+class RetryableDoneResponse implements TestkitResponseInterface
 {
     public function jsonSerialize(): array
     {

@@ -26,7 +26,7 @@ use Laudis\Neo4j\ParameterHelper;
 use Laudis\Neo4j\Tests\EnvironmentAwareIntegrationTest;
 use Laudis\Neo4j\Types\Node;
 
-final class ComplexQueryTest extends EnvironmentAwareIntegrationTest
+class ComplexQueryTest extends EnvironmentAwareIntegrationTest
 {
     public function setUp(): void
     {

@@ -29,7 +29,7 @@ use function sprintf;
  * @extends AbstractPropertyObject<OGMTypes, int|string|CypherMap<OGMTypes>>
  * @extends AbstractPropertyObject<OGMTypes, int|CypherList<string>|CypherMap<OGMTypes>>
  */
-final class Node extends AbstractPropertyObject
+class Node extends AbstractPropertyObject
 {
     /**
      * @param CypherList<string>  $labels

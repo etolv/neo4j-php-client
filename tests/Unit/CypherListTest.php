@@ -35,7 +35,7 @@ use stdClass;
  * @psalm-suppress MixedOperand
  * @psalm-suppress MixedAssignment
  */
-final class CypherListTest extends TestCase
+class CypherListTest extends TestCase
 {
     /** @var CypherList<string> */
     private CypherList $list;

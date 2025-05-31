@@ -30,7 +30,7 @@ use Psr\Log\LogLevel;
 
 use function sprintf;
 
-final class NoAuth implements AuthenticateInterface
+class NoAuth implements AuthenticateInterface
 {
     public function __construct(
         private readonly ?Neo4jLogger $logger,

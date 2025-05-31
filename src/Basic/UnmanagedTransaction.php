@@ -18,7 +18,7 @@ use Laudis\Neo4j\Databags\Statement;
 use Laudis\Neo4j\Databags\SummarizedResult;
 use Laudis\Neo4j\Types\CypherList;
 
-final class UnmanagedTransaction implements UnmanagedTransactionInterface
+class UnmanagedTransaction implements UnmanagedTransactionInterface
 {
     public function __construct(
         private readonly UnmanagedTransactionInterface $tsx,

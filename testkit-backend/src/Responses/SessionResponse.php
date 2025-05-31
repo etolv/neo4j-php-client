@@ -19,7 +19,7 @@ use Symfony\Component\Uid\Uuid;
 /**
  * Represents a session instance on the backend.
  */
-final class SessionResponse implements TestkitResponseInterface
+class SessionResponse implements TestkitResponseInterface
 {
     private Uuid $id;
 

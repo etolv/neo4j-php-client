@@ -20,7 +20,7 @@ use Symfony\Component\Uid\Uuid;
  * Represents a retryable transaction. The backend created a transaction and will use a retryable function.
  * All further requests will be applied through that retryable function.
  */
-final class RetryableTryResponse implements TestkitResponseInterface
+class RetryableTryResponse implements TestkitResponseInterface
 {
     private Uuid $id;
 

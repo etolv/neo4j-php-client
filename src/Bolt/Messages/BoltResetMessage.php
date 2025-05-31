@@ -23,7 +23,7 @@ use Laudis\Neo4j\Common\Neo4jLogger;
 use Laudis\Neo4j\Contracts\BoltMessage;
 use Psr\Log\LogLevel;
 
-final class BoltResetMessage extends BoltMessage
+class BoltResetMessage extends BoltMessage
 {
     public function __construct(
         private readonly V4_4|V5|V5_1|V5_2|V5_3|V5_4 $protocol,

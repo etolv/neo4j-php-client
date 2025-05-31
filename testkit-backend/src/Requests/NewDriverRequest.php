@@ -24,7 +24,7 @@ namespace Laudis\Neo4j\TestkitBackend\Requests;
 
 namespace Laudis\Neo4j\TestkitBackend\Requests;
 
-final class NewDriverRequest
+class NewDriverRequest
 {
     public function __construct(
         public readonly string $uri,

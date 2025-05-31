@@ -22,7 +22,7 @@ use Laudis\Neo4j\Types\CypherMap;
 use Laudis\Neo4j\Types\Node;
 use Laudis\Neo4j\Types\Path;
 
-final class EdgeCasesTest extends EnvironmentAwareIntegrationTest
+class EdgeCasesTest extends EnvironmentAwareIntegrationTest
 {
     public function setUp(): void
     {

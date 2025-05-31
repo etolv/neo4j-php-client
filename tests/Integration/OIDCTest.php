@@ -22,7 +22,7 @@ use Laudis\Neo4j\Tests\EnvironmentAwareIntegrationTest;
 /**
  * @psalm-suppress MissingConstructor
  */
-final class OIDCTest extends EnvironmentAwareIntegrationTest
+class OIDCTest extends EnvironmentAwareIntegrationTest
 {
     public function testConnect(): void
     {

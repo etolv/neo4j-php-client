@@ -28,7 +28,7 @@ use Laudis\Neo4j\Formatter\SummarizedResultFormatter;
  *
  * @implements Iterator<int, list<mixed>>
  */
-final class BoltResult implements Iterator
+class BoltResult implements Iterator
 {
     /** @var list<list> */
     private array $rows = [];

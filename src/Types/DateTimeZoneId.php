@@ -32,7 +32,7 @@ use UnexpectedValueException;
  *
  * @psalm-suppress TypeDoesNotContainType
  */
-final class DateTimeZoneId extends AbstractPropertyObject implements BoltConvertibleInterface
+class DateTimeZoneId extends AbstractPropertyObject implements BoltConvertibleInterface
 {
     /**
      * @param non-empty-string $tzId

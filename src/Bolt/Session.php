@@ -37,7 +37,7 @@ use Psr\Log\LogLevel;
 /**
  * A session using bolt connections.
  */
-final class Session implements SessionInterface
+class Session implements SessionInterface
 {
     /** @psalm-readonly */
     private readonly BookmarkHolder $bookmarkHolder;

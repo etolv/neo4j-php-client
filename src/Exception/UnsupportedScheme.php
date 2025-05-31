@@ -24,7 +24,7 @@ use RuntimeException;
  *
  * @psalm-suppress MutableDependency
  */
-final class UnsupportedScheme extends RuntimeException
+class UnsupportedScheme extends RuntimeException
 {
     /**
      * @param list<string> $supportedSchemas

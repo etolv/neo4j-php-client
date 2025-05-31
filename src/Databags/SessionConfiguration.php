@@ -25,7 +25,7 @@ use Psr\Http\Message\UriInterface;
  *
  * @psalm-immutable
  */
-final class SessionConfiguration
+class SessionConfiguration
 {
     public const DEFAULT_DATABASE = 'neo4j';
     public const DEFAULT_FETCH_SIZE = 1000;

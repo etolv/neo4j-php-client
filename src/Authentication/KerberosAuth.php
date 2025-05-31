@@ -33,7 +33,7 @@ use function sprintf;
 /**
  * Authenticates connections using a kerberos token.
  */
-final class KerberosAuth implements AuthenticateInterface
+class KerberosAuth implements AuthenticateInterface
 {
     public function __construct(
         private readonly string $token,

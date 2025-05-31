@@ -15,7 +15,7 @@ namespace Laudis\Neo4j\TestkitBackend\Requests;
 
 use Symfony\Component\Uid\Uuid;
 
-final class ResolverResolutionCompletedRequest
+class ResolverResolutionCompletedRequest
 {
     private Uuid $requestId;
     /** @var iterable<string> */

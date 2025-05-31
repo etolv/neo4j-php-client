@@ -18,7 +18,7 @@ use Laudis\Neo4j\Enum\SslMode;
 /**
  * @psalm-immutable
  */
-final class SslConfiguration
+class SslConfiguration
 {
     public function __construct(
         private SslMode $mode,

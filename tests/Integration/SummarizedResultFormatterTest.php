@@ -43,7 +43,7 @@ use function random_bytes;
 use function serialize;
 use function unserialize;
 
-final class SummarizedResultFormatterTest extends EnvironmentAwareIntegrationTest
+class SummarizedResultFormatterTest extends EnvironmentAwareIntegrationTest
 {
     public function testAcceptanceRead(): void
     {

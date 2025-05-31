@@ -22,7 +22,7 @@ use PHPUnit\Framework\TestCase;
 /**
  * @psalm-suppress PossiblyUndefinedArrayOffset
  */
-final class SslConfigurationFactoryTest extends TestCase
+class SslConfigurationFactoryTest extends TestCase
 {
     private SslConfigurationFactory $factory;
 

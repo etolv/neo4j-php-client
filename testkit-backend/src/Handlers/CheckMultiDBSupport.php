@@ -24,7 +24,7 @@ use Laudis\Neo4j\TestkitBackend\Responses\MultiDBSupportResponse;
 /**
  * @implements RequestHandlerInterface<CheckMultiDBSupportRequest>
  */
-final class CheckMultiDBSupport implements RequestHandlerInterface
+class CheckMultiDBSupport implements RequestHandlerInterface
 {
     private MainRepository $repository;
 

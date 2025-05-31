@@ -23,7 +23,7 @@ use Laudis\Neo4j\Contracts\BoltConvertibleInterface;
  *
  * @extends AbstractPropertyObject<float, float>
  */
-final class Time extends AbstractPropertyObject implements BoltConvertibleInterface
+class Time extends AbstractPropertyObject implements BoltConvertibleInterface
 {
     public function __construct(
         private readonly int $nanoSeconds,
